@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Inter;
+    src: url('Inter-VariableFont_slnt,wght.ttf');
+}
+
+div {
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-family: Inter;
+    font-weight: bolder;
+    font-size: clamp(24px, 8vw, 72px);
+    line-height: 0;
+}
+
+p {     
+    color: white;
+    font-family: Inter;
+    font-size: clamp(12px, 5vw, 18px);
+}
+
+a {
+    color :white;
+    font-weight: bold;
+}
+
+img {
+    width:100%;
+}
+
+#nav img{
+    width: clamp(200px, 15vw, 15vw);
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.text-block {
+    position: absolute;
+    left: 5vw;
+    top: 3vw;
+}
+
+.notice {
+    background-color: red;
+    position: absolute;
+    top: 5vw;
+    left: clamp(250px, 55vw, 600px);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+    line-height: 0;
+}
+.notice p {
+    font-size: clamp(2px, 3vw, 18px);
+}
